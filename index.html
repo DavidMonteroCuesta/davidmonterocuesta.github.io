@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>David Montero Cuesta — Backend & AI Architecture</title>
+  <meta name="description"
+    content="Portfolio de David Montero Cuesta. Especialista en Backend, Automatización Inteligente y Data consistent with Apple design standards.">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,400&display=swap">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" type="image/png" href="logo.png">
+</head>
+
+<body class="apple-theme">
+
+  <!-- BACKGROUND ATMOSPHERE (Living Mesh) -->
+  <div class="bg-atmosphere" id="bg-canvas">
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+  </div>
+
+  <!-- SCROLL PROGRESS -->
+  <div id="scroll-progress"></div>
+
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <div class="container nav-content">
+      <a href="#inicio" class="nav__brand">
+        <img src="logo.png" alt="David Montero Logo" class="nav__logo">
+      </a>
+      <ul class="nav__links">
+        <li><a href="#experiencia" class="nav__link">Experiencia</a></li>
+        <li><a href="#stack" class="nav__link">Stack</a></li>
+        <li><a href="#proyectos" class="nav__link">Proyectos</a></li>
+        <li><a href="#cv" class="nav__link">CV</a></li>
+        <li><a href="#contacto" class="nav__link">Contacto</a></li>
+      </ul>
+      <div class="nav__status">System Active</div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header class="hero" id="inicio">
+    <div class="container">
+      <div class="hero__inner scale-reveal">
+        <div class="hero__content">
+          <span class="eyebrow reveal">Backend & AI Specialist</span>
+          <h1 class="hero__name reveal shine-text">
+            David Montero.<br>
+            <span id="typewriter" class="serif-luxury apple-text"></span><span class="cursor">|</span>
+          </h1>
+          <p class="hero__desc reveal">
+            Desarrollador de aplicaciones multiplataforma enfocado en el diseño de <b>arquitecturas eficientes</b> y
+            automatización de procesos mediante inteligencia artificial.
+          </p>
+          <div class="hero__actions reveal">
+            <a href="#experiencia" class="btn btn-primary">Ver trayectoria</a>
+            <a href="#contacto" class="btn btn-link">Contacto →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- EXPERIENCIA -->
+  <section class="section" id="experiencia">
+    <div class="container">
+      <header class="section__header reveal">
+        <span class="eyebrow">Trayectoria</span>
+        <h2 class="section__title serif-luxury shine-text">Experiencia Profesional</h2>
+        <p class="section__large-text">Intervención técnica en procesos críticos de negocio mediante ingeniería de
+          datos avanzada.</p>
+      </header>
+
+      <div class="accordion-list">
+        <!-- Exp 1 -->
+        <div class="accordion-item reveal scale-reveal">
+          <button class="accordion-header">
+            <div class="accordion-header__content">
+              <span class="accordion-date">2025 — Actualidad</span>
+              <h3 class="accordion-title serif-luxury">Data Analyst & AI Automation Specialist</h3>
+              <p class="accordion-company">Dodepecho · Madrid</p>
+            </div>
+            <span class="accordion-icon">+</span>
+          </button>
+          <div class="accordion-body">
+            <div class="accordion-body__inner">
+              <ul class="card-list">
+                <li>Diseño y estructuración de bases de datos para CRM adaptadas a necesidades de negocio.</li>
+                <li>Implementación de agentes de IA para la optimización dinámica de flujos de trabajo internos.</li>
+                <li>Desarrollo de modelos de Machine Learning aplicados al análisis de KPIs en tiempo real.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Exp 2 -->
+        <div class="accordion-item reveal scale-reveal">
+          <button class="accordion-header">
+            <div class="accordion-header__content">
+              <span class="accordion-date">2025 (Marzo — Julio)</span>
+              <h3 class="accordion-title serif-luxury">Backend Developer</h3>
+              <p class="accordion-company">UTAI Software · Madrid</p>
+            </div>
+            <span class="accordion-icon">+</span>
+          </button>
+          <div class="accordion-body">
+            <div class="accordion-body__inner">
+              <ul class="card-list">
+                <li>Ingeniería backend en entornos de producción utilizando Python (Django) y Java.</li>
+                <li>Integración profunda de servicios de terceros mediante REST APIs.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STACK -->
+  <section class="section" id="stack">
+    <div class="container">
+      <header class="section__header reveal">
+        <span class="eyebrow">Ecosistema</span>
+        <h2 class="section__title serif-luxury shine-text">Stack Tecnológico</h2>
+        <p class="section__large-text">Ingeniería aplicada a la resolución de problemas reales.</p>
+      </header>
+
+      <div class="stack-grid">
+        <!-- Automatización -->
+        <div class="stack-card reveal scale-reveal">
+          <h3 class="stack-card__title serif-luxury">Automatización</h3>
+          <div class="stack-accordions">
+            <div class="stack-item">
+              <button class="stack-trigger">n8n <span class="stack-plus">+</span></button>
+              <div class="stack-content">
+                <p>Orquestador para conectar aplicaciones y crear lógica compleja sin silos.</p>
+              </div>
+            </div>
+            <div class="stack-item">
+              <button class="stack-trigger">Make <span class="stack-plus">+</span></button>
+              <div class="stack-content">
+                <p>Plataforma para despliegues rápidos de integraciones y flujos de marketing.</p>
+              </div>
+            </div>
+            <div class="stack-item">
+              <button class="stack-trigger">AI Agents <span class="stack-plus">+</span></button>
+              <div class="stack-content">
+                <p>Diseño de agentes autónomos dinámicos para decisiones operativas.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Backend -->
+        <div class="stack-card reveal scale-reveal">
+          <h3 class="stack-card__title serif-luxury">Backend Core</h3>
+          <div class="stack-accordions">
+            <div class="stack-item">
+              <button class="stack-trigger">Python <span class="stack-plus">+</span></button>
+              <div class="stack-content">
+                <p>Lenguaje principal para lógica robusta e integración de IA.</p>
+              </div>
+            </div>
+            <div class="stack-item">
+              <button class="stack-trigger">Java / .NET <span class="stack-plus">+</span></button>
+              <div class="stack-content">
+                <p>Ecosistemas escalables para aplicaciones de alto volumen.</p>
+              </div>
+            </div>
+            <div class="stack-item">
+              <button class="stack-trigger">Django <span class="stack-plus">+</span></button>
+              <div class="stack-content">
+                <p>Framework de alto nivel para un desarrollo rápido y seguro.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Data -->
+        <div class="stack-card reveal scale-reveal">
+          <h3 class="stack-card__title serif-luxury">Data & Arch</h3>
+          <div class="stack-accordions">
+            <div class="stack-item">
+              <button class="stack-trigger">Relacionales <span class="stack-plus">+</span></button>
+              <div class="stack-content">
+                <p>Integridad con PostgreSQL y SQL para sistemas críticos corporativos.</p>
+              </div>
+            </div>
+            <div class="stack-item">
+              <button class="stack-trigger">No Relacionales <span class="stack-plus">+</span></button>
+              <div class="stack-content">
+                <p>Flexibilidad y escalado masivo mediante soluciones NoSQL Modernas.</p>
+              </div>
+            </div>
+            <div class="stack-item">
+              <button class="stack-trigger">Big Data Layers <span class="stack-plus">+</span></button>
+              <div class="stack-content">
+                <p>Sincronización en tiempo real mediante Supabase y Big Data.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROYECTOS -->
+  <section class="section" id="proyectos">
+    <div class="container">
+      <header class="section__header reveal">
+        <span class="eyebrow">Casos de Uso</span>
+        <h2 class="section__title serif-luxury shine-text">Automatización Avanzada</h2>
+        <p class="section__large-text">Implementación de flujos de trabajo autónomos accionados mediante payloads JSON
+          para orquestar agentes e integraciones.</p>
+      </header>
+
+      <div class="project-showcase reveal scale-reveal">
+        <div class="project-info">
+          <h3 class="serif-luxury"
+            style="font-size: 2.5rem; margin-bottom: 24px; font-weight:800; letter-spacing: -0.03em;">IA Lead Scoring
+            (Estudio de Interiorismo)</h3>
+          <p style="font-size: 1.2rem; color: var(--text-mute); margin-bottom: 32px; line-height: 1.6;">Orquestación en
+            <b>n8n</b> de un sistema inteligente de scoring de leads inmobiliarios para reformas integrales. Ingesta
+            datos desde <b>Pipedrive</b>, y mediante la acción combinada de agentes basados en <b>GPT-4o</b> y
+            <b>Gemini</b>, analiza el contexto semántico de las observaciones, prefiltra spam, detecta B2B vs B2C, y
+            asigna un Score Comercial de alta fiabilidad.
+          </p>
+          <button id="run-automation-btn-1" class="btn-apple-main" style="padding: 16px 32px; font-size: 1rem;">Ejecutar
+            Pipeline n8n</button>
+        </div>
+
+        <div class="project-terminal">
+          <div class="terminal-header">
+            <span class="dot red"></span>
+            <span class="dot yellow"></span>
+            <span class="dot green"></span>
+            <span class="terminal-title">Webhook -> n8n Workflow -> Pipedrive</span>
+          </div>
+          <div class="terminal-body" id="terminal-body-1">
+            <pre><code class="language-json">{
+  "person_id": 3470,
+  "name": "Julia Martín",
+  "email": "julia.martin@ejemplo.com",
+  "telefono": "612345678",
+  "observaciones": "Hola, acabamos de comprar un piso antiguo y nos gustaría hacer una reforma integral. Queremos tirar distribución, cambiar fontanería, electricidad completa, ventanas y hacer baños y cocina.",
+  "elementos_reformar_ids": ["104", "111"],
+  "cp": "28010"
+}</code></pre>
+          </div>
+        </div>
+      </div>
+
+      <!-- SEGUNDO PROYECTO -->
+      <div class="project-showcase reveal scale-reveal">
+        <div class="project-info">
+          <h3 class="serif-luxury"
+            style="font-size: 2.5rem; margin-bottom: 24px; font-weight:800; letter-spacing: -0.03em;">Meta Ads & CRM
+            (Óptica)</h3>
+          <p style="font-size: 1.2rem; color: var(--text-mute); margin-bottom: 32px; line-height: 1.6;">Captación
+            automatizada en <b>Make</b> de leads provenientes de Meta Ads para el sector óptico. Utiliza modelos veloces
+            <b>(GPT-5-Mini)</b> para la normalización total de la identidad: limpieza algorítmica de prefijos
+            telefónicos con extensiones anómalas, separación inteligente de apellidos, e inferencia de género por NLP
+            antes de sincronizar con el ERP médico.
+          </p>
+          <button id="run-automation-btn-2" class="btn-apple-main" style="padding: 16px 32px; font-size: 1rem;">Ejecutar
+            Pipeline Make</button>
+        </div>
+
+        <div class="project-terminal">
+          <div class="terminal-header">
+            <span class="dot red"></span>
+            <span class="dot yellow"></span>
+            <span class="dot green"></span>
+            <span class="terminal-title">Meta Ads -> Make Workflow -> CRM Visual</span>
+          </div>
+          <div class="terminal-body" id="terminal-body-2">
+            <pre><code class="language-json">{
+  "leadgen_id": "84893921",
+  "form_id": "1984188425815757",
+  "data": {
+    "nombre": "  mArIa  jOse  ",
+    "apellido": "del carmen gomez",
+    "número_de_teléfono": "+34 615 249 653 9914"
+  }
+}</code></pre>
+          </div>
+        </div>
+      </div>
+
+      <!-- TERCER PROYECTO -->
+      <div class="project-showcase reveal scale-reveal">
+        <div class="project-info">
+          <h3 class="serif-luxury"
+            style="font-size: 2.5rem; margin-bottom: 24px; font-weight:800; letter-spacing: -0.03em;">ETL Analytics Hub
+          </h3>
+          <p style="font-size: 1.2rem; color: var(--text-mute); margin-bottom: 32px; line-height: 1.6;">Desarrollo de
+            una arquitectura ETL inter-sistemas para centralizar métricas omnicanal. Extrae diariamente KPIs de
+            Engagement (Instagram, YouTube, etc.) desde la API de <b>Metricool</b> y los enruta, transforma y consolida
+            en bases de datos relacionales de <b>Airtable</b>, actuando como el cerebro analítico para la toma de
+            decisiones.</p>
+          <button id="run-automation-btn-3" class="btn-apple-main" style="padding: 16px 32px; font-size: 1rem;">Ejecutar
+            ETL Cron</button>
+        </div>
+
+        <div class="project-terminal">
+          <div class="terminal-header">
+            <span class="dot red"></span>
+            <span class="dot yellow"></span>
+            <span class="dot green"></span>
+            <span class="terminal-title">Metricool API -> Make Router -> Airtable</span>
+          </div>
+          <div class="terminal-body" id="terminal-body-3">
+            <pre><code class="language-json">{
+  "trigger": "Cron Job (00:05 AM)",
+  "task": "Extract Daily Analytics",
+  "target_brand": "Óptica Soriano",
+  "metric_groups": [
+    "Instagram Reels (IGRE)",
+    "YouTube Evolution (YTEV)"
+  ],
+  "date_range": {
+    "start": "2026-03-26T00:00:00Z",
+    "end": "2026-03-26T23:59:59Z"
+  }
+}</code></pre>
+          </div>
+        </div>
+      </div>
+
+      <!-- CUARTO PROYECTO -->
+      <div class="project-showcase reveal scale-reveal">
+        <div class="project-info">
+          <h3 class="serif-luxury"
+            style="font-size: 2.5rem; margin-bottom: 24px; font-weight:800; letter-spacing: -0.03em;">AI Voice & Chat
+            Ecosystem</h3>
+          <p style="font-size: 1.2rem; color: var(--text-mute); margin-bottom: 32px; line-height: 1.6;">Desarrollo
+            integral de un agente telefónico conversacional potenciado por una <b>Cognitive Voice Gateway</b> y
+            orquestado asíncronamente en <b>n8n</b>. El ecosistema procesa eventos post-llamada en paralelo: un hilo
+            descarga y archiva la grabación <em>.wav</em> en Drive, mientras otro utiliza <b>Gemini</b> para auditar la
+            transcripción en busca de SPAM, estructurar entidades del discurso y volcar un lead limpio y clasificado
+            directamente en el ERP del cliente.</p>
+          <button id="run-automation-btn-4" class="btn-apple-main" style="padding: 16px 32px; font-size: 1rem;">Simular
+            Fin de Llamada</button>
+        </div>
+
+        <div class="project-terminal">
+          <div class="terminal-header">
+            <span class="dot red"></span>
+            <span class="dot yellow"></span>
+            <span class="dot green"></span>
+            <span class="terminal-title">Cognitive Voice Webhooks -> n8n Ecosystem -> Airtable/Drive</span>
+          </div>
+          <div class="terminal-body" id="terminal-body-4">
+            <pre><code class="language-json">{
+  "event": "end-of-call-report",
+  "call_id": "call_00Xjmp2y3IuyIDB0",
+  "recordingUrl": "https://api.cognitive-voice.io/recordings/call_...",
+  "toolCalls": [
+    {
+      "name": "registrar_cliente",
+      "arguments": {
+        "nombre": "David",
+        "empresa": "DMC",
+        "servicio_interes": "automatización"
+      }
+    }
+  ]
+}</code></pre>
+          </div>
+        </div>
+      </div>
+
+      <!-- QUINTO PROYECTO -->
+      <div class="project-showcase reveal scale-reveal">
+        <div class="project-info">
+          <h3 class="serif-luxury"
+            style="font-size: 2.5rem; margin-bottom: 24px; font-weight:800; letter-spacing: -0.03em;">KYC & Data
+            Normalization Pipeline</h3>
+          <p style="font-size: 1.2rem; color: var(--text-mute); margin-bottom: 32px; line-height: 1.6;">Automatización
+            en <b>Make</b> encargada de la ingesta de consentimientos legales desde Landings externas. Utiliza
+            <b>GPT-5-Mini</b> como motor de inferencia y limpieza ortográfica: analiza la entrada cruda, extrae de
+            manera estructurada entidades (Tutor vs Alumno), normaliza teléfonos corrigiendo prefijos de forma
+            algorítmica, infiere el género según el contexto semántico de España, y tras cruzar identificadores, lo
+            inyecta todo en <b>Airtable</b>.
+          </p>
+          <button id="run-automation-btn-5" class="btn-apple-main" style="padding: 16px 32px; font-size: 1rem;">Recibir
+            Landing Webhook</button>
+        </div>
+
+        <div class="project-terminal">
+          <div class="terminal-header">
+            <span class="dot red"></span>
+            <span class="dot yellow"></span>
+            <span class="dot green"></span>
+            <span class="terminal-title">Landing Webhook -> Make.com Data Parser -> Airtable</span>
+          </div>
+          <div class="terminal-body" id="terminal-body-5">
+            <pre><code class="language-json">{
+  "page_name": "landing_colegios_v2",
+  "payload": {
+    "nombre_tutor": " josé mª ",
+    "apellidos_tutor": "garcía vázquez",
+    "nombre_alumno": "noa",
+    "apellidos_alumno": "garcía",
+    "numero_telefonico_de_referencia": "+34  600  123 456",
+    "privacy_consent": "true"
+  }
+}</code></pre>
+          </div>
+        </div>
+      </div>
+
+      <!-- SEXTO PROYECTO -->
+      <div class="project-showcase reveal scale-reveal">
+        <div class="project-info">
+          <h3 class="serif-luxury"
+            style="font-size: 2.5rem; margin-bottom: 24px; font-weight:800; letter-spacing: -0.03em;">WhatsApp Expense
+            OCR & Routing</h3>
+          <p style="font-size: 1.2rem; color: var(--text-mute); margin-bottom: 32px; line-height: 1.6;">Asistente
+            contable integrado nativamente en <b>WhatsApp</b>. Permite enviar fotografías de tickets de gasto o facturas
+            al número de la empresa. Mediante <b>Visión Computacional (GPT-4o Vision)</b>, elabora el extracto fiscal:
+            CIF, IVA y conceptos. El flujo orquestado respalda automáticamente la imagen en una estructura de carpetas
+            por mes en <b>Google Drive</b> y remite por <b>Email</b> el JSON procesado directo al departamento
+            financiero.</p>
+          <button id="run-automation-btn-6" class="btn-apple-main" style="padding: 16px 32px; font-size: 1rem;">Simular
+            Ticket (WhatsApp)</button>
+        </div>
+
+        <div class="project-terminal">
+          <div class="terminal-header">
+            <span class="dot red"></span>
+            <span class="dot yellow"></span>
+            <span class="dot green"></span>
+            <span class="terminal-title">WhatsApp API -> OCR Agent -> Drive / Email</span>
+          </div>
+          <div class="terminal-body" id="terminal-body-6">
+            <pre><code class="language-json">{
+  "channel": "whatsapp",
+  "sender_phone": "+34600111222",
+  "message_type": "image",
+  "media": {
+    "url": "https://wa.me/media/tkt_restaurant.jpg",
+    "mime": "image/jpeg"
+  },
+  "caption": "Comida proyecto Alpha"
+}</code></pre>
+          </div>
+        </div>
+      </div>
+      <!-- SÉPTIMO PROYECTO: GEOLOCALIZACIÓN -->
+      <div class="project-showcase reveal scale-reveal">
+        <div class="project-info">
+          <h3 class="serif-luxury"
+            style="font-size: 2.5rem; margin-bottom: 24px; font-weight:800; letter-spacing: -0.03em;">Smart Geocoding & Heatmap Hub</h3>
+          <p style="font-size: 1.2rem; color: var(--text-mute); margin-bottom: 32px; line-height: 1.6;">Arquitectura de <b>Geolocalización de Precisión</b> coordinada mediante un script de <b>Python</b> (GitHub) que se ejecuta el día 1 de cada mes. El sistema procesa la base de datos de clientes, normaliza sus ubicaciones y genera coordenadas exactas (+12 decimales) mediante la <b>API de Google Maps</b> para alimentar un mapa de calor dinámico y una visualización en tiempo real.</p>
+          <button id="run-automation-btn-7" class="btn-apple-main" style="padding: 16px 32px; font-size: 1rem;">Ejecutar Localizador</button>
+        </div>
+
+        <div class="project-terminal">
+          <div class="terminal-header">
+            <span class="dot red"></span>
+            <span class="dot yellow"></span>
+            <span class="dot green"></span>
+            <span class="terminal-title">Cliente DB -> Geocoding API -> Heatmap Sync</span>
+          </div>
+          <div class="terminal-body" id="terminal-body-7">
+            <pre><code class="language-json">{
+  "status": "AWAITING_LOCALIZATION",
+  "client": {
+    "id_interno": "CLI-9928-X",
+    "nombre": "Javier",
+    "apellidos": "Ruiz Martínez",
+    "localidad": "Madrid",
+    "pais": "España",
+    "domicilio": "Calle Gran Vía, 28"
+  }
+}</code></pre>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FORMACIÓN -->
+  <section class="section" id="formacion">
+    <div class="container">
+      <div class="edu-layout reveal">
+        <div class="edu-content">
+          <span class="eyebrow">Académico</span>
+          <h2 class="section__title serif-luxury shine-text">Formación Continua</h2>
+
+          <div class="accordion-list">
+            <!-- Máster en Big Data -->
+            <div class="accordion-item reveal scale-reveal">
+              <button class="accordion-header">
+                <div class="accordion-header__content">
+                  <span class="accordion-date">2025 — 2026</span>
+                  <h3 class="accordion-title serif-luxury">Máster en Big Data</h3>
+                  <p class="accordion-company">IES Clara del Rey · Madrid</p>
+                </div>
+                <span class="accordion-icon">+</span>
+              </button>
+              <div class="accordion-body">
+                <div class="accordion-body__inner">
+                  <p class="section__large-text" style="font-size: 1.1rem; margin-top: 0; max-width: 100%;">
+                    El curso de Big Data proporciona conocimientos generales sobre cómo almacenar, gestionar y analizar
+                    grandes volúmenes de datos, incluyendo el uso de bases de datos (especialmente NoSQL), arquitecturas
+                    distribuidas y herramientas de procesamiento como Hadoop o Spark; además, abarca programación
+                    aplicada al análisis de datos y fundamentos de inteligencia artificial y machine learning, con el
+                    objetivo de extraer información útil para la toma de decisiones.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Grado Superior DAM -->
+            <div class="accordion-item reveal scale-reveal">
+              <button class="accordion-header">
+                <div class="accordion-header__content">
+                  <span class="accordion-date">2023 — 2025</span>
+                  <h3 class="accordion-title serif-luxury">Grado Superior DAM</h3>
+                  <p class="accordion-company">IES Enrique Tierno Galván · Madrid</p>
+                </div>
+                <span class="accordion-icon">+</span>
+              </button>
+              <div class="accordion-body">
+                <div class="accordion-body__inner">
+                  <p class="section__large-text" style="font-size: 1.1rem; margin-top: 0; max-width: 100%;">
+                    El Grado Superior en Desarrollo de Aplicaciones Multiplataforma (DAM) proporciona una formación
+                    general en programación y desarrollo de software, abarcando la creación de aplicaciones para
+                    distintos entornos (escritorio, web y móvil), el diseño y gestión de bases de datos, la
+                    implementación de interfaces de usuario y el uso de metodologías de desarrollo, con el objetivo de
+                    construir aplicaciones eficientes, seguras y adaptadas a diferentes plataformas.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CV SECTION -->
+  <section class="section" id="cv">
+    <div class="container">
+      <div class="cv-showcase reveal scale-reveal">
+        <div class="cv-content">
+          <span class="eyebrow">Recurso</span>
+          <h2 class="section__title serif-luxury">Currículum Vitae</h2>
+          <p class="section__large-text">Una visión detallada de mi trayectoria técnica, certificaciones y
+            especialización en el ecosistema de IA y Backend.</p>
+          <div class="cv-actions">
+            <a href="CV.pdf" download="CV_David_Montero.pdf" class="btn-apple-main">
+              <span class="btn-text">Descargar PDF</span>
+              <svg class="btn-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                <polyline points="7 10 12 15 17 10"></polyline>
+                <line x1="12" y1="15" x2="12" y2="3"></line>
+              </svg>
+            </a>
+            <a href="CV.pdf" target="_blank" class="btn-apple-outline">Vista previa</a>
+          </div>
+        </div>
+        <div class="cv-visual">
+          <div class="cv-card">
+            <div class="cv-card-header">
+              <div class="cv-card-dots">
+                <span class="dot red"></span>
+                <span class="dot yellow"></span>
+                <span class="dot green"></span>
+              </div>
+              <span class="cv-card-title">CV_David_Montero.pdf</span>
+            </div>
+            <div class="cv-card-body">
+              <img src="logo.png" alt="Logo" class="cv-logo-preview">
+              <div class="cv-placeholder-line long"></div>
+              <div class="cv-placeholder-line medium"></div>
+              <div class="cv-placeholder-line short"></div>
+              <div class="cv-placeholder-line long"></div>
+              <div class="cv-placeholder-line medium"></div>
+              <div class="cv-placeholder-line short"></div>
+              <div class="cv-placeholder-line long"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section class="section" id="contacto">
+    <div class="container">
+      <div class="contact-cta reveal scale-reveal">
+        <h2 class="serif-luxury shine-text" id="cta-text-anim"
+          style="font-size: clamp(3rem, 7vw, 5rem); margin-bottom: 48px;">¿Creamos algo excepcional?</h2>
+        <div class="contact-group">
+          <a href="mailto:monterodc17@gmail.com" class="btn-apple-main">monterodc17@gmail.com</a>
+          <a href="tel:+34662560660" class="btn-apple-outline">+34 662 56 06 60</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-seal">
+        <img src="logo.png" alt="David Montero Logo" class="footer__logo">
+        <span class="seal-text">Designed for Excellence</span>
+        <span class="seal-brand">David Montero · 2026</span>
+      </div>
+      <div class="footer-meta">
+        <span>Madrid, ES</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
