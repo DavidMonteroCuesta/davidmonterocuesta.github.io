@@ -1005,7 +1005,10 @@ button,
 }
 
 #cta-text-anim {
-  white-space: nowrap;
+  white-space: normal;
+  word-break: break-word;
+  max-width: 100%;
+  display: inline-block;
 }
 
 /* --- RESPONSIVE DESIGN --- */
