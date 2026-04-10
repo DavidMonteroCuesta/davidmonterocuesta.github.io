@@ -1195,6 +1195,12 @@ button,
     align-items: center;
     justify-content: space-between;
     gap: 0;
+    flex-wrap: nowrap;
+  }
+
+  .nav__brand {
+    width: auto;
+    justify-content: flex-start;
   }
 
   .nav__links {
@@ -1207,6 +1213,7 @@ button,
     width: auto;
     justify-content: center;
     display: flex;
+    white-space: nowrap;
   }
 
   .hero {
