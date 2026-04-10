@@ -317,8 +317,7 @@ button,
 }
 
 .btn-link {
-  color: var(--accent);
-}
+  color: var(--text-main);
 
 .btn-link:hover {
   transform: translateX(8px);
