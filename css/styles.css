@@ -138,7 +138,8 @@ button,
 .shine-text {
   position: relative;
   overflow: hidden;
-  display: inline-block;
+  display: inline;
+  white-space: normal;
   padding: 0 0.3em;
   margin: 0 -0.3em;
 }
