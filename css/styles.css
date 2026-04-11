@@ -246,6 +246,17 @@ button,
   border-radius: 4px;
 }
 
+@media (max-width: 768px) {
+  .nav__links,
+  .nav__status {
+    display: none;
+  }
+
+  .nav-content {
+    justify-content: flex-start;
+  }
+}
+
 /* --- HERO --- */
 .hero {
   min-height: 100vh;
